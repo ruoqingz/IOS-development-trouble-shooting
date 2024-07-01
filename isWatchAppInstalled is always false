@@ -1,0 +1,5 @@
+###WCSession.default.isWatchAppInstalled is always false
+- Bundle Identifier of IOS app: com.myname.myapp
+- Bundle Identifier of WatchOS app: com.myname.myapp.watchkitapp
+- info.plist of WatchOS app: <key>WKCompanionAppBundleIdentifier<key> <string>com.myname.myapp<string>
+- IOS app target - General - Frameworks,Libraries,adn Embedded Content: add your watchOS app (embed without signing)
